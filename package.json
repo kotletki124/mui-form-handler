@@ -1,0 +1,27 @@
+{
+  "name": "mui-form-handler",
+  "version": "0.0.1",
+  "description": "Lightweight simple API form handling for Material-UI applications.",
+  "main": "dist/mui-form-handler.min.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "kotletki124",
+  "repository": "kotletki124/mui-form-handler",
+  "license": "ISC",
+  "peerDependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
